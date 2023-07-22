@@ -32,11 +32,14 @@ if not end:
 
 ignored_words = [
     # Artigos
-    'A', 'O','a', 'o', 'as', 'os', 'aos', 'ao', 'à', 'às', 'um', 'uma', 'uns', 'umas',
+    'a', 'o', 'as', 'os', 'aos', 'ao', 'à', 'às', 'um', 'uma', 'uns', 'umas',
     # Preposições
-    'no', 'na', 'do', 'da', 'de', 'em', 'dos', 'das', 'por', 'para', 'que', 'mas', 'como', 'por', 'e', 'com', 'contra',
-    'pela', 'pelo', 'entre', 'sob', 'sobre', 'cada',
-    'apenas', 'tão', 'somente', 'contudo', 'enquanto', 'perante', 'isso',
+    'ante', 'perante', 'após', 'até', 'com', 'contra', 'de', 'desde', 'em', 'entre',
+    'para', 'por', 'sem', 'sob', 'sobre', 'trás', 'atrás', 'dentro', 'para', 'cada',
+    'no', 'na', 'nas', 'nos', 'da', 'do', 'das', 'dos', 'pelo', 'pela', 'que', 'somente'
+    # Conjunções
+    'mas', 'porém', 'contudo', 'todavia', 'e', 'também', 'mas', 'além',
+    'como', 'com', 'contra', 'apenas', 'tão', 'enquanto', 'isso',
     # Advérbios
     'não', 'sim', 'muito', 'mais', 'pouco', 'ou',
     # Verbos
@@ -48,7 +51,7 @@ ignored_words = [
     'todo', 'toda', 'todos', 'todas', 'aquele', 'aqueles', 'aquela', 'aquelas', 'este', 'esta', 'estes', 'estas','esse', 'esses',
     'aquilo', 'isso',
     # Caracteres especiais
-    '-', ' - ', '_',
+    '-', '_', '*',
 ]
 punctuation = [
     '.', ',', ' -', '- ' , '!', '?', '(', ')', '"', "'"

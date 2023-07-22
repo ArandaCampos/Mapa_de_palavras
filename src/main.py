@@ -39,9 +39,9 @@ ignored_words = [
     'no', 'na', 'nas', 'nos', 'da', 'do', 'das', 'dos', 'pelo', 'pela', 'que', 'somente'
     # Conjunções
     'mas', 'porém', 'contudo', 'todavia', 'e', 'também', 'mas', 'além',
-    'como', 'com', 'contra', 'apenas', 'tão', 'enquanto', 'isso',
+    'como', 'apenas', 'tão', 'enquanto', 'isso', 'ademais', 'consequentemente',
     # Advérbios
-    'não', 'sim', 'muito', 'mais', 'pouco', 'ou',
+    'não', 'sim', 'muito', 'mais', 'pouco', 'ou', 'bastante',
     # Verbos
     'é', 'são', 'era', 'eram', 'foi',
     # Pronomes
